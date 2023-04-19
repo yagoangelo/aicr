@@ -19,7 +19,7 @@ jobs:
     name: ChatGPT Review
     runs-on: ubuntu-latest
     steps:
-    - uses: feiskyer/ChatGPT-Reviewer@v0
+    - uses: yagoangelo/aicr@v0
       name: ChatGPT Review
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
